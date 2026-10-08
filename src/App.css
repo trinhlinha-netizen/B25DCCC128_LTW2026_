@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 0;
+}
+
+.stats-box {
+  display: flex;
+  justify-content: space-around;
+  background: #e8f4fd;
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #0b5394;
+}
+
+.card {
+  background: #fafafa;
+  padding: 18px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.error-alert {
+  color: #d93025;
+  padding: 10px 14px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.student-form {
+  display: grid;
+  grid-template-columns: 2fr 1.2fr 1.5fr auto;
+  gap: 10px;
+}
+
+.student-form input {
+  padding: 10px 12px;
+  border: 1px solid #07408a8e;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.btn-add {
+  background-color: #1d6e74;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-add:hover {
+  background-color: #4a97a0;
+}
+
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.filter-bar button {
+  padding: 8px 14px;
+  border: 1px solid #064410c0;
+  background: white;
+  color: #064410c0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.filter-bar button.active,
+.filter-bar button:hover {
+  background: #064410c0;
+  color: white;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #dee2e6;
+  padding: 12px;
+  text-align: center;
+}
+
+.student-table th {
+  background-color: #064410c0;
+  color: white;
+}
+
+.student-table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.badge-good {
+  color: #0a4116;
+}
+
+.badge-fail {
+  color: #721c24;
+}
+
+.badge-pass {
+  color: #959c56;
+}
+
+.btn-delete {
+  background-color: #880613;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background-color: #992531;
+}
+
+.empty-msg {
+  text-align: center;
+  color: #777;
+  padding: 20px;
+  font-style: italic;
+}
